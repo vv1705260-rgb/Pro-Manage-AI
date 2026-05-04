@@ -4,9 +4,7 @@ import axios from 'axios';
 import io from 'socket.io-client';
 
 const API = "http://localhost:5000/api";
-const socket = io('http://localhost:5000');
-const API = "https://your-backend.onrender.com/api";
-
+const API = "https://pro-manage-ai-1.onrender.com/api";
 export default function KanbanBoard() {
   const [tasks, setTasks] = useState([]);
   const token = localStorage.getItem('token');
