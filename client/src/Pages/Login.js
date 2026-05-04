@@ -71,5 +71,5 @@ export default function Login() {
       </div>
     </div>
   );
-                                     }
+ http://localhost:5000/api/auth/login                                    }
 https://pro-manage-ai-1.onrender.com/api/auth/login
