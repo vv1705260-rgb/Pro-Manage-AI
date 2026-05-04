@@ -58,6 +58,7 @@ A modern full-stack **Project Management Tool** with real-time collaboration, bu
 ## 🚀 Live Demo
 
 🌐 Frontend: https://promanage-ai.vercel.app
+
 🌐 Backend API: https://promanage-api.onrender.com
 ---
 
@@ -97,8 +98,22 @@ server/     → Backend (Node.js)
 
 | Service       | Link |
 |--------------|------|
-| 🎨 Frontend  | https://your-frontend-link |
-| ⚙️ Backend API | https://your-backend-link |
+| 🎨 Frontend  | https://github.com/vv1705260-rgb/Pro-Manage-AI/tree/main/server  |
+| ⚙️ Backend API | https://github.com/vv1705260-rgb/Pro-Manage-AI/tree/main/client/src |
+
+## 🔗 API Endpoints
+
+Base URL:https://github.com/vv1705260-rgb/Pro-Manage-AI
+
+
+### Auth Routes
+- POST /api/auth/register
+- POST /api/auth/login
+
+### Task Routes
+- GET /api/tasks
+- POST /api/tasks
+- PUT /api/tasks🗂️
 ---
 
 ## 💡 Future Improvements
