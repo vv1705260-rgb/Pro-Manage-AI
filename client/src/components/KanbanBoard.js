@@ -85,3 +85,26 @@ export default function KanbanBoard() {
     </DragDropContext>
   );
     }
+<div className="grid grid-cols-3 gap-6">
+  {['To Do', 'In Progress', 'Done'].map(status => (
+    <div
+      key={status}
+      className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-4 shadow-2xl"
+    >
+      <h2 className="text-white text-xl font-semibold mb-3">
+        {status}
+      </h2>
+
+      {tasks
+        .filter(t => t.status === status)
+        .map(task => (
+          <div
+            key={task._id}
+            className="bg-white text-black p-3 mb-3 rounded-xl shadow-md hover:scale-105 transition duration-300 cursor-pointer"
+          >
+            {task.title}
+          </div>
+        ))}
+    </div>
+  ))}
+</div>
