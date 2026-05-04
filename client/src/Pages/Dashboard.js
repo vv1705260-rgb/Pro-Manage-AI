@@ -19,3 +19,25 @@ export default function Dashboard() {
     </div>
   );
       }
+import KanbanBoard from '../components/KanbanBoard';
+
+export default function Dashboard() {
+  return (
+    <div className=\"min-h-screen bg-gradient-to-br from-black via-purple-900 to-indigo-900 p-6\">
+      <h1 className=\"text-4xl text-white font-bold mb-6\">
+        ProManage AI 🚀
+      </h1>
+
+      <KanbanBoard />
+    </div>
+  );
+    }
+  const [title, setTitle] = useState('');
+
+const addTask = async () => {
+  await axios.post(
+    'http://localhost:5000/api/tasks',
+    { title },
+    { headers: { Authorization: token } }
+  );
+};
