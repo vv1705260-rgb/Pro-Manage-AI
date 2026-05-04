@@ -54,7 +54,7 @@ A modern full-stack **Project Management Tool** with real-time collaboration, bu
 
 ### 📋 Kanban Board
 
-![Kanban](./screenshots/kanban.png)
+![Kanban](https://github.com/vv1705260-rgb/Pro-Manage-AI/blob/main/client/src/components/KanbanBoard.js./screenshots/kanban.png)
 
 ---
 
