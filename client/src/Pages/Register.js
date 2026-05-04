@@ -43,3 +43,5 @@ export default function Register() {
     </div>
   );
 }
+const API = "http://localhost:5000/api";
+https://pro-manage-ai-1.onrender.com/api/auth/login
