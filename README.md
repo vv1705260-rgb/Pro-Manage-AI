@@ -57,8 +57,7 @@ A modern full-stack **Project Management Tool** with real-time collaboration, bu
 
 ## 🚀 Live Demo
 
-🌐 Frontend: https://promanage-ai.vercel.app
-
+🌐 Frontend: https://promanage-ai.vercel.app          
 🌐 Backend API: https://promanage-api.onrender.com
 ---
 
