@@ -134,3 +134,18 @@ const addTask = async () => {
 >
   🤖 Suggest Tasks
 </button>
+<div className="mb-6 flex gap-3">
+  <input
+    value={title}
+    onChange={e => setTitle(e.target.value)}
+    placeholder="Enter new task..."
+    className="flex-1 p-3 rounded-xl bg-white/20 text-white placeholder-gray-300 backdrop-blur-lg outline-none"
+  />
+
+  <button
+    onClick={addTask}
+    className="bg-purple-600 px-6 py-3 rounded-xl text-white hover:bg-purple-700 transition"
+  >
+    Add
+  </button>
+</div>
