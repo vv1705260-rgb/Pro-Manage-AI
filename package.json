@@ -1,0 +1,12 @@
+{
+  "name": "promanage-ai",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "cd server && nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
