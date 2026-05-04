@@ -10,3 +10,11 @@
     "concurrently": "^8.0.0"
   }
 }
+{
+  "name": "promanage-ai",
+  "scripts": {
+    "server": "cd server && nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  }
+}
