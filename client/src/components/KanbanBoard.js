@@ -3,9 +3,9 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import io from 'socket.io-client';
 
+const API = "http://localhost:5000/api";
 const socket = io('http://localhost:5000');
-
-const statuses = ['To Do', 'In Progress', 'Done'];
+const API = "https://your-backend.onrender.com/api";
 
 export default function KanbanBoard() {
   const [tasks, setTasks] = useState([]);
