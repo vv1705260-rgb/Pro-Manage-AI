@@ -108,3 +108,29 @@ export default function KanbanBoard() {
     </div>
   ))}
 </div>
+<button onClick={() => setDark(!dark)}>
+  🌙 Toggle Theme
+</button>
+const [dark, setDark] = useState(true);
+
+<div className={dark ? "dark" : ""}>
+{message && (
+  <div className="bg-green-500 text-white p-2 rounded mb-4">
+    {message}
+  </div>
+)}
+const [message, setMessage] = useState('');
+
+const addTask = async () => {
+  await axios.post(`${API}/tasks`, { title }, {
+    headers: { Authorization: token }
+  });
+  setMessage("✅ Task Added!");
+  setTimeout(() => setMessage(''), 2000);
+};
+<button
+  onClick={() => setTitle("Design UI, Setup backend, Add auth")}
+  className="bg-indigo-500 px-4 py-2 rounded-lg text-white mb-4"
+>
+  🤖 Suggest Tasks
+</button>
