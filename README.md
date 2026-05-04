@@ -41,13 +41,16 @@ A modern full-stack **Project Management Tool** with real-time collaboration, bu
 
 ## 📸 Screenshots
 
-### 🔑 Login Page
+### 📥 Registration 
 
-![Login](./screenshots/login.png)
+![Register](https://github.com/vv1705260-rgb/Pro-Manage-AI/blob/main/client/src/Pages/Register.js/screenshot/login.png)
+
+### 🔐 Login 
+![Login](https://github.com/vv1705260-rgb/Pro-Manage-AI/blob/main/client/src/Pages/Login.js./screenshots/login.png)
 
 ### 📊 Dashboard
 
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](https://github.com/vv1705260-rgb/Pro-Manage-AI/blob/main/client/src/Pages/Dashboard.js./screenshots/dashboard.png)
 
 ### 📋 Kanban Board
 
