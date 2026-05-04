@@ -16,5 +16,10 @@
     "server": "cd server && nodemon server.js",
     "client": "cd client && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\""
-  }
+  "engines": {
+  "node": "18.x"
+  }}
 }
+git add .
+git commit -m "Fix node version for deployment"
+git push
